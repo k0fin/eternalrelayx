@@ -34,10 +34,12 @@ Read about EternalRelay here:
 ## usage
 
  * Single target
-    eternalrelayx.py -t "smb://10.10.10.1" --exploit
+
+'        eternalrelayx.py -t "smb://10.10.10.1" --exploit
 
  * Multiple targets
-    eternalrelayx.py -tf relays.txt -w --exploit
+
+         eternalrelayx.py -tf relays.txt -w --exploit
 
 ## todo
 
