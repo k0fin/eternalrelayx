@@ -35,7 +35,7 @@ Read about EternalRelay here:
 
  * Single target
 
-'        eternalrelayx.py -t "smb://10.10.10.1" --exploit
+         eternalrelayx.py -t "smb://10.10.10.1" --exploit
 
  * Multiple targets
 
